@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Blog</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>Blogify</h2>
+
+<button onclick="window.location='dashboard.html'">
+Home
+</button>
+
+</nav>
+
+<div class="blog-page">
+
+<img id="cover">
+
+<h1 id="title"></h1>
+
+<p id="content"></p>
+
+<hr>
+
+<h2>Comments</h2>
+
+<div id="comments"></div>
+
+<input
+type="text"
+id="comment"
+placeholder="Write a comment...">
+
+<button onclick="addComment()">
+Post Comment
+</button>
+
+</div>
+
+<script src="view.js"></script>
+
+</body>
+
+</html>
